@@ -1,10 +1,10 @@
-#About me 
+#About me  
 - I’m @HungryNeko, a CST student
 - I’m interested in deeplearning(CV), IoT, internet of www
 - I’m currently learning CV, Internet
 - Fun fact: I am boring
 
-#What I have uploaded 
+#What I have uploaded  
 - !Some repositories are not published (for personal use or for certain confidentiality reasons)!
 - some big class projects(boring, but boring)
 - 2 2D shooting game made by java and python(not finished, not going to finish...)
