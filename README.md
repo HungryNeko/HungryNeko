@@ -1,6 +1,6 @@
 # About me 
 - I’m @HungryNeko, a CST student
-- I’m interested in deeplearning(CV), IoT, internet of www
+- I’m interested in Deep learning(CV), IoT, Internet of www, Game Designing, weird things
 - I’m currently learning CV, Internet
 - Fun fact: I am boring
 
