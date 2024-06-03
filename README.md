@@ -11,7 +11,7 @@
 - python code for crawling words from the New Oriental website(It was for a paper but i did not have a chance to finish it)
 - python code to proposes some autodriving data
 - some web links and files for personal use
-- 
+- simple CNN Fire&somke identification network used to participate in competitions
 <!---
 HungryNeko/HungryNeko is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
