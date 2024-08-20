@@ -1,8 +1,7 @@
 # About me 
 - I’m @HungryNeko, a CST student
 - I’m interested in Deep learning(CV), IoT, Internet of www, Game Designing, weird things
-- Fun fact: You Are Gay
-
+- Fun fact: YOU ARE GAY
 # What I have uploaded 
 - Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)
 - some big class projects(boring, but boring)
