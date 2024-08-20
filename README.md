@@ -10,6 +10,7 @@
 - python code to proposes some autodriving data
 - some web links and files for personal use
 - simple CNN Fire&somke identification network used to participate in competitions
+- SAR datasets trained with YOLOv8
 #### 📫Language Usage:
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HungryNeko&theme=radical&count_private=true&hide=javascript,scss&layout=compact)](https://github.com/ffftuanxxx/github-readme-stats)
