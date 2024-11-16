@@ -1,7 +1,6 @@
 # About me 
 - I’m @HungryNeko, a CST student
 - I’m interested in Deep learning(CV), IoT, Internet of www, Game Designing, weird things
-- Fun fact: YOU ARE GAY
 # What I have uploaded 
 - Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)
 - some big class projects(boring, but boring)
@@ -13,4 +12,4 @@
 - SAR datasets trained with YOLOv8
 #### 📫Language Usage:
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HungryNeko&theme=radical&count_private=true&hide=javascript,scss&layout=compact)](https://github.com/ffftuanxxx/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=HungryNeko&theme=radical&count_private=true&hide=javascript,scss&layout=compact)](https://github.com/HungryNeko/github-readme-stats)
