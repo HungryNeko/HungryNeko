@@ -1,3 +1,4 @@
+![GitHub Streak](https://streak-stats.demolab.com/?user=HungryNeko&theme=dark)
 # About me 
 - I’m @HungryNeko, a CST&EE student
 - I’m interested in Deep learning(CV), IoT, IoWWW, DevOps, weird things
