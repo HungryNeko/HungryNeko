@@ -1,7 +1,16 @@
-![GitHub Streak](https://streak-stats.demolab.com/?user=HungryNeko&theme=dark)
+<p align="center"><img src="https://i.imgur.com/A6bWGFl.gif"/></p>
+<div>
+  <h1 align="center"> 
+    <strong>
+      <img src="https://github.com/ffftuanxxx/ffftuanxxx/blob/main/hi.gif" width="90px">, This is <mark>HungryNeko!</mark>
+    </strong>
+  </h1>
+</div>
+
 # About me 
 - I’m @HungryNeko, a CST&EE student
 - I’m interested in Deep learning(CV), IoT, IoWWW, DevOps, weird things
+- Some project experience can be found in [my personal blog](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/).
 # Tech Stack
 - ​**Programming Languages**: Python, C, C++, Java, C#, R, Matlab, HTML, PHP  
 - ​**AI/ML Stack**: PyTorch, TensorFlow  
