@@ -1,10 +1,8 @@
-<p align="center"><img src="https://i.imgur.com/A6bWGFl.gif"/></p>
-<div>
-  <h1 align="center"> 
-    <strong>
-      <img src="https://github.com/ffftuanxxx/ffftuanxxx/blob/main/hi.gif" width="90px">, This is <mark>HungryNeko!</mark>
-    </strong>
-  </h1>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4e814ecf-fccc-4878-b888-21cc5a69ac3c" width="20%">
+  <img src="https://github.com/user-attachments/assets/4e814ecf-fccc-4878-b888-21cc5a69ac3c" width="20%">
+  <img src="https://github.com/user-attachments/assets/4e814ecf-fccc-4878-b888-21cc5a69ac3c" width="20%">
+  <img src="https://github.com/user-attachments/assets/4e814ecf-fccc-4878-b888-21cc5a69ac3c" width="20%">
 </div>
 
 # About me 
@@ -13,7 +11,8 @@
 - Some project experience can be found in [my personal blog](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/).
 # Tech Stack
 - ​**Programming Languages**: Python, C, C++, Java, C#, R, Matlab, HTML, PHP  
-- ​**AI/ML Stack**: PyTorch, TensorFlow  
+- ​**AI/ML Stack**: PyTorch, TensorFlow 
+
 - ​**Cloud & DevOps**: Linux VPS, Docker, MySQL, MQTT  
 - ​**Frameworks/Tools**: Flask, QT, TCP/IP  
 # What I have uploaded 
