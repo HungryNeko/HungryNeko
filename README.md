@@ -23,7 +23,7 @@
 - Some web links and files for personal use
 - Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)
 # Featured Projects
-- Notice:  projects demonstrating technical depth - includes both individual and collaborative work)
+- Notice:  Some projects are still in private repository.
 - **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction** :
   - GBC is an AI framework that transforms low-quality B&W videos into high-resolution color 3D models using optical flow super-resolution, temporal colorization, and 3D Gaussian splatting, achieving state-of-the-art reconstruction fidelity for historical footage restoration. 
   - LINKS: [GBC(Archived)](https://github.com/ffftuanxxx/GBC) [GBC(paper referenced)](https://github.com/ffftuanxxx/GBC) [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039)
