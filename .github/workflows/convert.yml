@@ -5,6 +5,12 @@ on:
     branches: [ main ]
     paths:
       - 'README.md'
+  workflow_dispatch:  # 添加这行以支持手动触发
+    inputs:
+      reason:
+        description: 'Why are you running this workflow?'
+        required: false
+        default: 'Manual trigger'
 
 jobs:
   convert-readme:
@@ -30,5 +36,5 @@ jobs:
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
         git add index.html
-        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update index.html from README"
+        git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update index.html from README (${{ github.event.inputs.reason }})"
         git push
