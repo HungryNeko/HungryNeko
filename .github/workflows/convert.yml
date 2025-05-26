@@ -30,7 +30,9 @@ jobs:
       run: |
         pandoc README.md -o index.html --standalone \
           --template=./.github/scripts/template.html \
-          --metadata title="My Personal Page"
+          --metadata title="My Personal Page" \
+          --wrap=none  # 禁止智能合并标题
+
 
     - name: Commit and push HTML
       run: |
