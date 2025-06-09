@@ -42,7 +42,8 @@
   - LINKS: [OpenGL My World](https://github.com/ffftuanxxx/OpenGL-My-World)
 - **TouHou Game simulation**:
   - Simple simulation of TouHou, writed when I first learned Java and made an improvement by python.
-  - LINKS: [PYTHON](https://github.com/HungryNeko/ThreeBrilliance) [JAVA](https://github.com/HungryNeko/fan_made_touhou) [Develop Note](https://fujisaki.top/2024/03/05/touhou-game-simulation-note/)
+  - Designing an AI Agent to play the game automaticly.
+  - LINKS: [AI Agent](https://fujisaki.top/2025/06/08/designing-an-ai-agent-for-touhou-style-bullet-hell-games/) [Develop Note](https://fujisaki.top/2024/03/05/touhou-game-simulation-note/) [PYTHON](https://github.com/HungryNeko/ThreeBrilliance) [JAVA](https://github.com/HungryNeko/fan_made_touhou)
 - **QT based mobile phone communication tool**:
   - Communication tool based on QT(phone) and python(server part), has dynamic authentication and data encrpytion.
   - LINKS: [private](https://github.com/HungryNeko/mobile-computing-project/settings/security_analysis)
