@@ -25,7 +25,8 @@
 # Featured Projects
 - Notice:  Some projects are still in private repository.
 - **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction** :
-  - GBC is an AI framework that transforms low-quality B&W videos into high-resolution color 3D models using optical flow super-resolution, temporal colorization, and 3D Gaussian splatting, achieving state-of-the-art reconstruction fidelity for historical footage restoration. 
+  - GBC is an AI framework that transforms low-quality B&W videos into high-resolution color 3D models using optical flow super-resolution, temporal colorization, and 3D Gaussian splatting, achieving state-of-the-art reconstruction fidelity for historical footage restoration.
+  - Accepted by ACM SIGGRAPH VRCAI ’24.
   - LINKS: [GBC(Archived)](https://github.com/ffftuanxxx/GBC) [GBC(paper referenced)](https://github.com/ffftuanxxx/GBC) [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039)
 - **Safety-driven Path Selection Using Reinforcement-Learning in Autonomous Driving**:
   - Safety-driven autonomous path selection using P2P reports and RL to validate road data, exclude unreliable sources, and optimize safe routes via K-shortest paths.  
@@ -33,10 +34,11 @@
   - LINKS: [private](https://github.com/HungryNeko/accident-and-road-information-processing)  [Abstract](https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/)
 - **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**:
   - BMS³ introduces a Bayesian SwinUNet with self-distillation for domain-invariant medical image segmentation, outperforming ResNet/TransUNet in cross-domain generalization and computational efficiency. Code available upon publication.
+  - Accepted by ICONIP 2025.
   - LINKS: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/) [reference list](https://elucidator.cn/bmsss_ref/)
 - **SAR data training with YOLOv8**:
   - Trained by YOLOv8, SAR images with object detection(with and without OBB), image classification, image preprocession, txt file to XML, data argumentation, create new image data through means such as flipping, cropping and pasting.
-  - LINKS: [SAR data training with YOLOv8](https://github.com/HungryNeko/SAR-Aircraft-YOLOv8) 
+  - LINKS: [private](https://github.com/HungryNeko/SAR-Aircraft-YOLOv8) 
 - **OpenGL My World**:
   - Developed interactive 3D simulation with physics-based robot controls (WASD movement, gravity-adjusted jumps), dynamic object generation, collision detection, and multi-perspective rendering (1st/3rd person) using optimized 3D engine techniques.
   - LINKS: [OpenGL My World](https://github.com/ffftuanxxx/OpenGL-My-World)
