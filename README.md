@@ -6,8 +6,8 @@
 </div>
 
 # About me 
-- I’m @HungryNeko, a CST&EE student
-- I’m interested in Deep learning(CV), IoT, IoWWW, DevOps, weird things
+- I’m @HungryNeko, a CST&EE(ML fucos) student
+- I’m interested in Backend, Deep learning(CV), IoT, IoWWW, DevOps, weird things
 - Some project experience can be found in [my personal blog](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/). 
 
 # Tech Stack
