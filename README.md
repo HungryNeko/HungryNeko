@@ -49,3 +49,8 @@
 - **QT based mobile phone communication tool**:
   - Communication tool based on QT(phone) and python(server part), has dynamic authentication and data encrpytion.
   - LINKS: [private](https://github.com/HungryNeko/mobile-computing-project/settings/security_analysis)
+- **Subtitle Tool**:
+  - A collection of Python scripts for managing and processing subtitle files, including automatic renaming, Chinese translation(traditional to simplified), and more. 
+  - LINKS: [Subtitle_tool](https://github.com/HungryNeko/Subtitle_tool)
+
+
