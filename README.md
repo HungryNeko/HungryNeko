@@ -6,8 +6,8 @@
 </div>
 
 # About me 
-- I’m @HungryNeko, a CST&EE(ML fucos) student
-- I’m interested in Backend, Deep learning(CV), IoT, IoWWW, DevOps, weird things
+- I’m @HungryNeko, a CS & EE(ML fucos) student
+- I’m interested in Backend, Deep learning(CV), Reinforcement Learning, ML, IoT, IoWWW, DevOps, weird things
 - Some project experience can be found in [my personal blog](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/). 
 
 # Tech Stack
@@ -24,6 +24,7 @@
 
 # Featured Projects
 - Notice:  Some projects are still in private repository.
+  ## Publications
 - **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction** :
   - GBC is an AI framework that transforms low-quality B&W videos into high-resolution color 3D models using optical flow super-resolution, temporal colorization, and 3D Gaussian splatting, achieving state-of-the-art reconstruction fidelity for historical footage restoration.
   - Accepted by ACM SIGGRAPH VRCAI ’24.
@@ -36,6 +37,7 @@
   - BMS³ introduces a Bayesian SwinUNet with self-distillation for domain-invariant medical image segmentation, outperforming ResNet/TransUNet in cross-domain generalization and computational efficiency. Code available upon publication.
   - Accepted by ICONIP 2025.
   - LINKS: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/) [reference list](https://elucidator.cn/bmsss_ref/)
+  ## Others
 - **SAR data training with YOLOv8**:
   - Trained by YOLOv8, SAR images with object detection(with and without OBB), image classification, image preprocession, txt file to XML, data argumentation, create new image data through means such as flipping, cropping and pasting.
   - LINKS: [private](https://github.com/HungryNeko/SAR-Aircraft-YOLOv8) 
