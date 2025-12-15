@@ -42,7 +42,7 @@
   - Reproduced and evaluated multiple image compression algorithms (JPEG, PNG, SVD, PCA, PatchSVD, K-means clustering) using mathematical metrics (SSIM, PSNR, NCC, UIQI, DSSIM).
   - Benchmarked classification networks (ResNet50, ResNet18, MobileNetV2) on datasets such as MiniImageNet and CIFAR100 to assess the impact of compression.
   - Found that certain compression methods may lead to improved accuracy in image classification networks.
-  - LINKS: [Report](https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf), [Repository](https://github.com/HungryNeko/EE510project/)  
+  - LINKS: [Report](https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf), [Repository](https://github.com/HungryNeko/EE510project/) , [Post](https://fujisaki.top/2025/12/15/image-compression-may-improve-classification-networks-accuracy/)  
 - **SAR data training with YOLOv8**:
   - Trained by YOLOv8, SAR images with object detection(with and without OBB), image classification, image preprocession, txt file to XML, data argumentation, create new image data through means such as flipping, cropping and pasting.
   - LINKS: [private](https://github.com/HungryNeko/SAR-Aircraft-YOLOv8) 
