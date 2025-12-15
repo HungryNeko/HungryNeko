@@ -36,7 +36,7 @@
 - **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**:
   - BMS³ introduces a Bayesian SwinUNet with self-distillation for domain-invariant medical image segmentation, outperforming ResNet/TransUNet in cross-domain generalization and computational efficiency. Code available upon publication.
   - Accepted by ICONIP 2025.
-  - LINKS: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/) [reference list](https://elucidator.cn/bmsss_ref/)
+  - LINKS: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/) [reference list](https://elucidator.cn/bmsss_ref/)  
   ## Others
 - **Image Compression and Performance Evaluation**:
   - Reproduced and evaluated multiple image compression algorithms (JPEG, PNG, SVD, PCA, PatchSVD, K-means clustering) using mathematical metrics (SSIM, PSNR, NCC, UIQI, DSSIM).
