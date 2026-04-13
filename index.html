@@ -42,81 +42,100 @@
 </div>
 <h1 id="about-me">About me</h1>
 <ul>
-<li>I’m <span class="citation" data-cites="HungryNeko">@HungryNeko</span>, a CS &amp; EE(ML fucos) student</li>
-<li>I’m interested in Backend, Deep learning(CV), Reinforcement Learning, ML, IoT, IoWWW, DevOps, weird things</li>
-<li>Some project experience can be found in <a href="https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/">my personal blog</a>.</li>
+<li><span class="citation" data-cites="HungryNeko">@HungryNeko</span></li>
+<li><strong>Backend Engineering + AI Engineering</strong> (CV, speech, RL, multimodal)</li>
+<li><strong>Current focus</strong>: production AI pipelines (ONNX inference, Dockerized services, async cloud workflows)</li>
+<li><strong>Interests</strong>: IoT backend, speech processing, and research-to-production engineering</li>
+<li><strong>More technical notes</strong>: <a href="https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/">blog posts</a></li>
 </ul>
 <h1 id="tech-stack">Tech Stack</h1>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Area</th>
+<th>Stack</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Languages</strong></td>
+<td>Python, C/C++, Java, SQL</td>
+</tr>
+<tr class="even">
+<td><strong>AI/ML</strong></td>
+<td>PyTorch, TensorFlow, scikit-learn, OpenCV, YOLOv8, ONNX, ONNX Runtime</td>
+</tr>
+<tr class="odd">
+<td><strong>Speech &amp; Multimodal</strong></td>
+<td>Frameworks: Whisper, MossFormer2, SpeechBrain, WeSpeaker<br>Focus: short-window cross-lingual speaker verification, code-switch analysis</td>
+</tr>
+<tr class="even">
+<td><strong>Backend &amp; Cloud</strong></td>
+<td>Flask, REST APIs, JWT, MySQL, Docker, Linux, MQTT, AWS (EC2/S3/SQS/Lambda/DynamoDB/IAM/Secrets Manager), Dockerized ONNX inference services</td>
+</tr>
+<tr class="odd">
+<td><strong>Engineering</strong></td>
+<td>Git, GitHub Actions, CI/CD, async job pipelines, PyQt, TCP/IP</td>
+</tr>
+</tbody>
+</table>
+<h1 id="selected-projects">Selected Projects</h1>
 <ul>
-<li>​<strong>Programming Languages</strong>: Python, C, C++, Java, C#, R, Matlab, HTML, PHP<br />
-</li>
-<li>​<strong>AI/ML Stack</strong>: PyTorch, TensorFlow</li>
-<li>​<strong>Cloud &amp; DevOps</strong>: Linux VPS, Docker, MySQL, MQTT<br />
-</li>
-<li>​<strong>Frameworks/Tools</strong>: Flask, QT, TCP/IP, Git, Github Action <!--# What I have uploaded 
+<li><strong>Multilingual Speech Separation + Code-switch Correction Pipeline (Ongoing)</strong>
+<ul>
+<li><strong>Tech</strong>: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.</li>
+<li><strong>Experiments</strong>: short-window (~1s) cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison.</li>
+</ul></li>
+<li><strong>AI Cloud Album (AWS)</strong>
+<ul>
+<li><strong>Tech</strong>: Flask, JWT, S3, SQS, Lambda, DynamoDB, IAM, Secrets Manager, status-driven async workflow (<code>uploaded -&gt; processing -&gt; complete/failed</code>).</li>
+<li><strong>AI Deployment</strong>: YOLOv8 inference exported to ONNX and packaged with Docker for reproducible cloud inference.</li>
+</ul></li>
+<li><strong>IoT Debugging &amp; Testing System (Intern)</strong>
+<ul>
+<li><strong>Tech</strong>: Python, PyQt, MQTT, queue-based multithreading, protocol encryption, JSON-driven test framework.</li>
+<li><strong>Metrics</strong>: 40% operation-time reduction, up to 80% less adaptation code, &lt;20ms latency, 40% lower CPU usage.</li>
+</ul></li>
+<li><strong>GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction</strong>
+<ul>
+<li><strong>Tech</strong>: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.</li>
+<li><strong>Publication</strong>: ACM SIGGRAPH VRCAI 2024.</li>
+</ul></li>
+<li><strong>BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture</strong>
+<ul>
+<li><strong>Tech</strong>: Bayesian modeling, SwinUNet backbone, self-distillation, cross-domain segmentation setup.</li>
+<li><strong>Publication</strong>: ICONIP 2025.</li>
+</ul></li>
+<li><strong>Safety-driven Path Selection Using Reinforcement Learning in Autonomous Driving</strong>
+<ul>
+<li><strong>Tech</strong>: Q-learning, dynamic confidence update, noisy-source filtering, OpenStreetMap-based routing context.</li>
+<li><strong>Publication</strong>: RSAE 2025.</li>
+</ul></li>
+<li><strong>SAR Data Pipeline with YOLOv8</strong>
+<ul>
+<li><strong>Tech</strong>: YOLOv8, OpenCV preprocessing, augmentation pipeline, format conversion, classification/detection/OBB training.</li>
+<li><strong>Metrics</strong>: 35% effective data expansion, 12% accuracy improvement over baseline.</li>
+</ul></li>
+</ul>
+<!--# What I have uploaded
 - Experiment projects for papers
 - Some class projects
 - Personal projects
 - Some web links and files for personal use
-- Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)--></li>
+- Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)-->
+<h1 id="project-links">Project Links</h1>
+<ul>
+<li>GBC: <a href="https://github.com/ffftuanxxx/GBC">Archived Repo</a> | <a href="https://dl.acm.org/doi/10.1145/3703619.3706039">Paper</a></li>
+<li>Safety-driven Path Selection: <a href="https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/">Abstract</a></li>
+<li>BMS^3: <a href="https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/">Abstract</a></li>
+<li>Image Compression Study: <a href="https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf">Report</a> | <a href="https://github.com/HungryNeko/EE510project/">Repository</a></li>
 </ul>
-<h1 id="featured-projects">Featured Projects</h1>
-<ul>
-<li>Notice: Some projects are still in private repository. ## Publications</li>
-<li><strong>GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction</strong> :
-<ul>
-<li>GBC is an AI framework that transforms low-quality B&amp;W videos into high-resolution color 3D models using optical flow super-resolution, temporal colorization, and 3D Gaussian splatting, achieving state-of-the-art reconstruction fidelity for historical footage restoration.</li>
-<li>Accepted by ACM SIGGRAPH VRCAI ’24.</li>
-<li>LINKS: <a href="https://github.com/ffftuanxxx/GBC">GBC(Archived)</a> <a href="https://github.com/ffftuanxxx/GBC">GBC(paper referenced)</a> <a href="https://dl.acm.org/doi/10.1145/3703619.3706039">Paper</a></li>
-</ul></li>
-<li><strong>Safety-driven Path Selection Using Reinforcement-Learning in Autonomous Driving</strong>:
-<ul>
-<li>Safety-driven autonomous path selection using P2P reports and RL to validate road data, exclude unreliable sources, and optimize safe routes via K-shortest paths.<br />
-</li>
-<li>Accepted by RSAE 2025, wait to publish</li>
-<li>LINKS: <a href="https://github.com/HungryNeko/accident-and-road-information-processing">private</a> <a href="https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/">Abstract</a></li>
-</ul></li>
-<li><strong>BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture</strong>:
-<ul>
-<li>BMS³ introduces a Bayesian SwinUNet with self-distillation for domain-invariant medical image segmentation, outperforming ResNet/TransUNet in cross-domain generalization and computational efficiency. Code available upon publication.</li>
-<li>Accepted by ICONIP 2025.</li>
-<li>LINKS: <a href="https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/">Abstract</a> <a href="https://elucidator.cn/bmsss_ref/">reference list</a><br />
-## Others</li>
-</ul></li>
-<li><strong>Image Compression and Performance Evaluation</strong>:
-<ul>
-<li>Reproduced and evaluated multiple image compression algorithms (JPEG, PNG, SVD, PCA, PatchSVD, K-means clustering) using mathematical metrics (SSIM, PSNR, NCC, UIQI, DSSIM).</li>
-<li>Benchmarked classification networks (ResNet50, ResNet18, MobileNetV2) on datasets such as MiniImageNet and CIFAR100 to assess the impact of compression.</li>
-<li>Found that certain compression methods may lead to improved accuracy in image classification networks.</li>
-<li>LINKS: <a href="https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf">Report</a>, <a href="https://github.com/HungryNeko/EE510project/">Repository</a> , <a href="https://fujisaki.top/2025/12/15/image-compression-may-improve-classification-networks-accuracy/">Post</a><br />
-</li>
-</ul></li>
-<li><strong>SAR data training with YOLOv8</strong>:
-<ul>
-<li>Trained by YOLOv8, SAR images with object detection(with and without OBB), image classification, image preprocession, txt file to XML, data argumentation, create new image data through means such as flipping, cropping and pasting.</li>
-<li>LINKS: <a href="https://github.com/HungryNeko/SAR-Aircraft-YOLOv8">private</a></li>
-</ul></li>
-<li><strong>OpenGL My World</strong>:
-<ul>
-<li>Developed interactive 3D simulation with physics-based robot controls (WASD movement, gravity-adjusted jumps), dynamic object generation, collision detection, and multi-perspective rendering (1st/3rd person) using optimized 3D engine techniques.</li>
-<li>LINKS: <a href="https://github.com/ffftuanxxx/OpenGL-My-World">OpenGL My World</a></li>
-</ul></li>
-<li><strong>TouHou Game simulation</strong>:
-<ul>
-<li>Simple simulation of TouHou, writed when I first learned Java and made an improvement by python.</li>
-<li>Designing an AI Agent to play the game automaticly.</li>
-<li>LINKS: <a href="https://fujisaki.top/2025/06/08/designing-an-ai-agent-for-touhou-style-bullet-hell-games/">AI Agent</a> <a href="https://fujisaki.top/2024/03/05/touhou-game-simulation-note/">Develop Note</a> <a href="https://github.com/HungryNeko/ThreeBrilliance">PYTHON</a> <a href="https://github.com/HungryNeko/fan_made_touhou">JAVA</a></li>
-</ul></li>
-<li><strong>QT based mobile phone communication tool</strong>:
-<ul>
-<li>Communication tool based on QT(phone) and python(server part), has dynamic authentication and data encrpytion.</li>
-<li>LINKS: <a href="https://github.com/HungryNeko/mobile-computing-project/settings/security_analysis">private</a></li>
-</ul></li>
-<li><strong>Subtitle Tool</strong>:
-<ul>
-<li>A collection of Python scripts for managing and processing subtitle files, including automatic renaming, Chinese translation(traditional to simplified), and more.</li>
-<li>LINKS: <a href="https://github.com/HungryNeko/Subtitle_tool">Subtitle_tool</a></li>
-</ul></li>
-</ul>
+<blockquote>
+<p>Note: Some projects are in private repositories (course/research or confidentiality reasons).</p>
+</blockquote>
 </body>
 </html>
