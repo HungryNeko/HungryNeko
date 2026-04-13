@@ -5,59 +5,62 @@
   <img src="https://github.com/user-attachments/assets/4e814ecf-fccc-4878-b888-21cc5a69ac3c" width="20%">
 </div>
 
-# About me 
-- I’m @HungryNeko, a CS & EE(ML fucos) student
-- I’m interested in Backend, Deep learning(CV), Reinforcement Learning, ML, IoT, IoWWW, DevOps, weird things
-- Some project experience can be found in [my personal blog](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/). 
+# About me
+- @HungryNeko
+- **Backend Engineering + AI Engineering** (CV, speech, RL, multimodal)
+- **Current focus**: production AI pipelines (ONNX inference, Dockerized services, async cloud workflows)
+- **Interests**: IoT backend, speech processing, and research-to-production engineering
+- **More technical notes**: [blog posts](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/)
 
 # Tech Stack
-- ​**Programming Languages**: Python, C, C++, Java, C#, R, Matlab, HTML, PHP  
-- ​**AI/ML Stack**: PyTorch, TensorFlow 
-- ​**Cloud & DevOps**: Linux VPS, Docker, MySQL, MQTT  
-- ​**Frameworks/Tools**: Flask, QT, TCP/IP, Git, Github Action
-<!--# What I have uploaded 
+| Area | Stack |
+| --- | --- |
+| **Languages** | Python, C/C++, Java, SQL |
+| **AI/ML** | PyTorch, TensorFlow, scikit-learn, OpenCV, YOLOv8, ONNX, ONNX Runtime |
+| **Speech & Multimodal** | Frameworks: Whisper, MossFormer2, SpeechBrain, WeSpeaker<br>Focus: short-window cross-lingual speaker verification, code-switch analysis |
+| **Backend & Cloud** | Flask, REST APIs, JWT, MySQL, Docker, Linux, MQTT, AWS (EC2/S3/SQS/Lambda/DynamoDB/IAM/Secrets Manager), Dockerized ONNX inference services |
+| **Engineering** | Git, GitHub Actions, CI/CD, async job pipelines, PyQt, TCP/IP |
+
+# Selected Projects
+- **Multilingual Speech Separation + Code-switch Correction Pipeline (Ongoing)**
+  - **Tech**: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.
+  - **Experiments**: short-window (~1s) cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison.
+
+- **AI Cloud Album (AWS)**
+  - **Tech**: Flask, JWT, S3, SQS, Lambda, DynamoDB, IAM, Secrets Manager, status-driven async workflow (`uploaded -> processing -> complete/failed`).
+  - **AI Deployment**: YOLOv8 inference exported to ONNX and packaged with Docker for reproducible cloud inference.
+
+- **IoT Debugging & Testing System (Intern)**
+  - **Tech**: Python, PyQt, MQTT, queue-based multithreading, protocol encryption, JSON-driven test framework.
+  - **Metrics**: 40% operation-time reduction, up to 80% less adaptation code, <20ms latency, 40% lower CPU usage.
+
+- **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction**
+  - **Tech**: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.
+  - **Publication**: ACM SIGGRAPH VRCAI 2024.
+
+- **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**
+  - **Tech**: Bayesian modeling, SwinUNet backbone, self-distillation, cross-domain segmentation setup.
+  - **Publication**: ICONIP 2025.
+
+- **Safety-driven Path Selection Using Reinforcement Learning in Autonomous Driving**
+  - **Tech**: Q-learning, dynamic confidence update, noisy-source filtering, OpenStreetMap-based routing context.
+  - **Publication**: RSAE 2025.
+
+- **SAR Data Pipeline with YOLOv8**
+  - **Tech**: YOLOv8, OpenCV preprocessing, augmentation pipeline, format conversion, classification/detection/OBB training.
+  - **Metrics**: 35% effective data expansion, 12% accuracy improvement over baseline.
+
+<!--# What I have uploaded
 - Experiment projects for papers
 - Some class projects
 - Personal projects
 - Some web links and files for personal use
 - Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)-->
 
-# Featured Projects
-- Notice:  Some projects are still in private repository.
-  ## Publications
-- **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction** :
-  - GBC is an AI framework that transforms low-quality B&W videos into high-resolution color 3D models using optical flow super-resolution, temporal colorization, and 3D Gaussian splatting, achieving state-of-the-art reconstruction fidelity for historical footage restoration.
-  - Accepted by ACM SIGGRAPH VRCAI ’24.
-  - LINKS: [GBC(Archived)](https://github.com/ffftuanxxx/GBC) [GBC(paper referenced)](https://github.com/ffftuanxxx/GBC) [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039)
-- **Safety-driven Path Selection Using Reinforcement-Learning in Autonomous Driving**:
-  - Safety-driven autonomous path selection using P2P reports and RL to validate road data, exclude unreliable sources, and optimize safe routes via K-shortest paths.  
-  - Accepted by RSAE 2025, wait to publish
-  - LINKS: [private](https://github.com/HungryNeko/accident-and-road-information-processing)  [Abstract](https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/)
-- **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**:
-  - BMS³ introduces a Bayesian SwinUNet with self-distillation for domain-invariant medical image segmentation, outperforming ResNet/TransUNet in cross-domain generalization and computational efficiency. Code available upon publication.
-  - Accepted by ICONIP 2025.
-  - LINKS: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/) [reference list](https://elucidator.cn/bmsss_ref/)  
-  ## Others
-- **Image Compression and Performance Evaluation**:
-  - Reproduced and evaluated multiple image compression algorithms (JPEG, PNG, SVD, PCA, PatchSVD, K-means clustering) using mathematical metrics (SSIM, PSNR, NCC, UIQI, DSSIM).
-  - Benchmarked classification networks (ResNet50, ResNet18, MobileNetV2) on datasets such as MiniImageNet and CIFAR100 to assess the impact of compression.
-  - Found that certain compression methods may lead to improved accuracy in image classification networks.
-  - LINKS: [Report](https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf), [Repository](https://github.com/HungryNeko/EE510project/) , [Post](https://fujisaki.top/2025/12/15/image-compression-may-improve-classification-networks-accuracy/)  
-- **SAR data training with YOLOv8**:
-  - Trained by YOLOv8, SAR images with object detection(with and without OBB), image classification, image preprocession, txt file to XML, data argumentation, create new image data through means such as flipping, cropping and pasting.
-  - LINKS: [private](https://github.com/HungryNeko/SAR-Aircraft-YOLOv8) 
-- **OpenGL My World**:
-  - Developed interactive 3D simulation with physics-based robot controls (WASD movement, gravity-adjusted jumps), dynamic object generation, collision detection, and multi-perspective rendering (1st/3rd person) using optimized 3D engine techniques.
-  - LINKS: [OpenGL My World](https://github.com/ffftuanxxx/OpenGL-My-World)
-- **TouHou Game simulation**:
-  - Simple simulation of TouHou, writed when I first learned Java and made an improvement by python.
-  - Designing an AI Agent to play the game automaticly.
-  - LINKS: [AI Agent](https://fujisaki.top/2025/06/08/designing-an-ai-agent-for-touhou-style-bullet-hell-games/) [Develop Note](https://fujisaki.top/2024/03/05/touhou-game-simulation-note/) [PYTHON](https://github.com/HungryNeko/ThreeBrilliance) [JAVA](https://github.com/HungryNeko/fan_made_touhou)
-- **QT based mobile phone communication tool**:
-  - Communication tool based on QT(phone) and python(server part), has dynamic authentication and data encrpytion.
-  - LINKS: [private](https://github.com/HungryNeko/mobile-computing-project/settings/security_analysis)
-- **Subtitle Tool**:
-  - A collection of Python scripts for managing and processing subtitle files, including automatic renaming, Chinese translation(traditional to simplified), and more. 
-  - LINKS: [Subtitle_tool](https://github.com/HungryNeko/Subtitle_tool)
+# Project Links
+- GBC: [Archived Repo](https://github.com/ffftuanxxx/GBC) | [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039)
+- Safety-driven Path Selection: [Abstract](https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/)
+- BMS^3: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/)
+- Image Compression Study: [Report](https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf) | [Repository](https://github.com/HungryNeko/EE510project/)
 
-
+> Note: Some projects are in private repositories (course/research or confidentiality reasons).
