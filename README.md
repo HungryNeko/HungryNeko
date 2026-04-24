@@ -22,6 +22,18 @@
 | **Engineering** | Git, GitHub Actions, CI/CD, async job pipelines, PyQt, TCP/IP |
 
 # Selected Projects
+- **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction**
+  - **Tech**: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.
+  - **Publication**: ACM SIGGRAPH VRCAI 2024.
+
+- **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**
+  - **Tech**: Bayesian modeling, SwinUNet backbone, self-distillation, cross-domain segmentation setup.
+  - **Publication**: ICONIP 2025.
+
+- **Safety-driven Path Selection Using Reinforcement Learning in Autonomous Driving**
+  - **Tech**: Q-learning, dynamic confidence update, noisy-source filtering, OpenStreetMap-based routing context.
+  - **Publication**: RSAE 2025.
+
 - **Multilingual Speech Separation + Code-switch Correction Pipeline (Ongoing)**
   - **Tech**: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.
   - **Experiments**: short-window (~1s) cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison.
@@ -34,17 +46,9 @@
   - **Tech**: Python, PyQt, MQTT, queue-based multithreading, protocol encryption, JSON-driven test framework.
   - **Metrics**: 40% operation-time reduction, up to 80% less adaptation code, <20ms latency, 40% lower CPU usage.
 
-- **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction**
-  - **Tech**: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.
-  - **Publication**: ACM SIGGRAPH VRCAI 2024.
-
-- **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**
-  - **Tech**: Bayesian modeling, SwinUNet backbone, self-distillation, cross-domain segmentation setup.
-  - **Publication**: ICONIP 2025.
-
-- **Safety-driven Path Selection Using Reinforcement Learning in Autonomous Driving**
-  - **Tech**: Q-learning, dynamic confidence update, noisy-source filtering, OpenStreetMap-based routing context.
-  - **Publication**: RSAE 2025.
+- **R2 Gateway**
+  - **Tech**: Flask, Docker, Cloudflare R2, S3-compatible APIs, Flask-Limiter.
+  - **Features**: Dockerized R2 gateway with token-based access control, public/private bucket policy, traffic and operation-quota guardrails, and health/usage endpoints.
 
 - **SAR Data Pipeline with YOLOv8**
   - **Tech**: YOLOv8, OpenCV preprocessing, augmentation pipeline, format conversion, classification/detection/OBB training.
@@ -58,6 +62,7 @@
 - Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)-->
 
 # Project Links
+- R2 Gateway: [Repository](https://github.com/HungryNeko/r2-gateway)
 - GBC: [Archived Repo](https://github.com/ffftuanxxx/GBC) | [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039)
 - Safety-driven Path Selection: [Abstract](https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/)
 - BMS^3: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/)
