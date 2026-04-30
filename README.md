@@ -15,7 +15,7 @@
 # Tech Stack
 | Area | Stack |
 | --- | --- |
-| **Languages** | Python, C/C++, Java, SQL |
+| **Languages** | Python, C/C++, Java, C#, SQL |
 | **AI/ML** | PyTorch, TensorFlow, scikit-learn, OpenCV, YOLOv8, ONNX, ONNX Runtime |
 | **Speech & Multimodal** | Frameworks: Whisper, MossFormer2, SpeechBrain, WeSpeaker<br>Focus: short-window cross-lingual speaker verification, code-switch analysis |
 | **Backend & Cloud** | Flask, REST APIs, JWT, MySQL, Docker, Linux, MQTT, AWS (EC2/S3/SQS/Lambda/DynamoDB/IAM/Secrets Manager), Dockerized ONNX inference services |
