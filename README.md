@@ -10,7 +10,7 @@
 - **Backend Engineering + AI Engineering** (CV, speech, RL, multimodal)
 - **Current focus**: production AI pipelines (ONNX inference, Dockerized services, async cloud workflows)
 - **Interests**: IoT backend, speech processing, and research-to-production engineering
-- **More technical notes**: [blog posts](https://fujisaki.top/category/%E6%8A%80%E6%9C%AF-tech/)
+- **More technical notes**: [Blog Posts](https://fujisaki.top/)
 
 # Tech Stack
 | Area | Stack |
@@ -25,14 +25,17 @@
 - **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction**
   - **Tech**: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.
   - **Publication**: ACM SIGGRAPH VRCAI 2024.
+  - [Blog](https://fujisaki.top/pages/paper/gbc-gaussian-based-colorization-and-super-resolution-for-3d-reconstruction/post) [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039) [Demo](https://elucidator.cn/gbc-demo/) [Github](https://github.com/ffftuanxxx/GBCA)
 
 - **BMS^3: Bayesian Modeling Based SwinUNet Segmentation on Self-distillation Architecture**
   - **Tech**: Bayesian modeling, SwinUNet backbone, self-distillation, cross-domain segmentation setup.
   - **Publication**: ICONIP 2025.
+  - [Blog](https://fujisaki.top/pages/paper/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/post) [Paper](https://link.springer.com/chapter/10.1007/978-981-95-4445-5_3) [Reference List](https://elucidator.cn/bmsss_ref/)
 
 - **Safety-driven Path Selection Using Reinforcement Learning in Autonomous Driving**
   - **Tech**: Q-learning, dynamic confidence update, noisy-source filtering, OpenStreetMap-based routing context.
   - **Publication**: RSAE 2025.
+  - [Blog](https://fujisaki.top/pages/paper/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/post.html)
 
 - **Multilingual Speech Separation + Code-switch Correction Pipeline (Ongoing)**
   - **Tech**: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.
@@ -41,14 +44,17 @@
 - **AI Cloud Album (AWS)**
   - **Tech**: Flask, JWT, S3, SQS, Lambda, DynamoDB, IAM, Secrets Manager, status-driven async workflow (`uploaded -> processing -> complete/failed`).
   - **AI Deployment**: YOLOv8 inference exported to ONNX and packaged with Docker for reproducible cloud inference.
+  - [Blog](https://fujisaki.top/pages/tech/aws-cloud-album-project/post.html)
 
 - **IoT Debugging & Testing System (Intern)**
   - **Tech**: Python, PyQt, MQTT, queue-based multithreading, protocol encryption, JSON-driven test framework.
   - **Metrics**: 40% operation-time reduction, up to 80% less adaptation code, <20ms latency, 40% lower CPU usage.
+  - [Blog](https://fujisaki.top/pages/tech/an-iot-test-tool-development-notes/post.html)
 
 - **R2 Gateway**
   - **Tech**: Flask, Docker, Cloudflare R2, S3-compatible APIs, Flask-Limiter.
   - **Features**: Dockerized R2 gateway with token-based access control, public/private bucket policy, traffic and operation-quota guardrails, and health/usage endpoints.
+  - [Blog](https://fujisaki.top/pages/tech/r2-gateway-cost-controlled-s3-compatible-object-storage-gateway/post.html)
 
 - **SAR Data Pipeline with YOLOv8**
   - **Tech**: YOLOv8, OpenCV preprocessing, augmentation pipeline, format conversion, classification/detection/OBB training.
@@ -61,11 +67,5 @@
 - Some web links and files for personal use
 - Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)-->
 
-# Project Links
-- R2 Gateway: [Repository](https://github.com/HungryNeko/r2-gateway)
-- GBC: [Archived Repo](https://github.com/ffftuanxxx/GBC) | [Paper](https://dl.acm.org/doi/10.1145/3703619.3706039)
-- Safety-driven Path Selection: [Abstract](https://fujisaki.top/2025/04/15/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/)
-- BMS^3: [Abstract](https://fujisaki.top/2024/11/02/bms3-bayesian-modeling-based-swinunet-segmentation-on-self-distillation-architecture/)
-- Image Compression Study: [Report](https://github.com/HungryNeko/EE510project/blob/main/EE510_Report.pdf) | [Repository](https://github.com/HungryNeko/EE510project/)
 
 > Note: Some projects are in private repositories (course/research or confidentiality reasons).
