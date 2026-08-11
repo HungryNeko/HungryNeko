@@ -8,20 +8,30 @@
 # About me
 - @HungryNeko
 - **Backend Engineering + AI Engineering** (CV, speech, RL, multimodal)
-- **Current focus**: production AI pipelines (ONNX inference, Dockerized services, async cloud workflows)
-- **Interests**: IoT backend, speech processing, and research-to-production engineering
+- **Current focus**: production AI pipelines (ONNX inference, Dockerized services, async cloud workflows, agent tools)
+- **Interests**: IoT backend, speech processing, AI agents, and research-to-production engineering
 - **More technical notes**: [Blog Posts](https://fujisaki.top/)
 
 # Tech Stack
 | Area | Stack |
 | --- | --- |
 | **Languages** | Python, C/C++, Java, C#, SQL |
-| **AI/ML** | PyTorch, TensorFlow, scikit-learn, OpenCV, YOLOv8, ONNX, ONNX Runtime |
-| **Speech & Multimodal** | Frameworks: Whisper, MossFormer2, SpeechBrain, WeSpeaker<br>Focus: short-window cross-lingual speaker verification, code-switch analysis |
-| **Backend & Cloud** | Flask, REST APIs, JWT, MySQL, Docker, Linux, MQTT, AWS (EC2/S3/SQS/Lambda/DynamoDB/IAM/Secrets Manager), Dockerized ONNX inference services |
-| **Engineering** | Git, GitHub Actions, CI/CD, async job pipelines, PyQt, TCP/IP |
+| **AI/ML** | PyTorch, TensorFlow, Hugging Face Transformers, LangGraph, scikit-learn, OpenCV, YOLOv8, ONNX, ONNX Runtime |
+| **Speech & Multimodal** | Whisper, MossFormer2, SpeechBrain, WeSpeaker, cross-lingual speaker verification, code-switch analysis |
+| **Backend & Cloud** | Node.js, Flask, REST APIs, JWT, MySQL, SQLite, Docker, Linux, MQTT, AWS (EC2/S3/SQS/Lambda/DynamoDB/IAM/Secrets Manager), Azure |
+| **Frontend** | React, Angular, HTML |
+| **Engineering** | Git, GitHub Actions, CI/CD, async job pipelines, PyQt, QT, TCP/IP, COLMAP, 3D Gaussian Splatting |
 
 # Selected Projects
+- **AI-Powered Rental Management Agent Platform**
+  - **Tech**: Flask, SQLite, JWT, LangGraph, SQL tool, Python tool, chart tool, PDF tool, contract RAG.
+  - **Features**: natural-language data entry, record update/query, charting, PDF handling, and retrieval-augmented contract search.
+  - [Github](https://github.com/HungryNeko/rent)
+
+- **AMECxSV: Metadata-Driven Calibration for Cross-Lingual Speaker Verification**
+  - **Tech**: frozen speech encoders, metadata-aware score calibration, language/duration features, lightweight MLP.
+  - **Focus**: cross-lingual speaker verification, multilingual trials, confidence-based abstention.
+
 - **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction**
   - **Tech**: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.
   - **Publication**: ACM SIGGRAPH VRCAI 2024.
@@ -39,17 +49,12 @@
 
 - **Multilingual Speech Separation + Code-switch Correction Pipeline (Ongoing)**
   - **Tech**: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.
-  - **Experiments**: short-window (~1s) cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison.
+  - **Experiments**: short-window cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison.
 
 - **AI Cloud Album (AWS)**
   - **Tech**: Flask, JWT, S3, SQS, Lambda, DynamoDB, IAM, Secrets Manager, status-driven async workflow (`uploaded -> processing -> complete/failed`).
   - **AI Deployment**: YOLOv8 inference exported to ONNX and packaged with Docker for reproducible cloud inference.
   - [Blog](https://fujisaki.top/pages/tech/aws-cloud-album-project/post.html)
-
-- **IoT Debugging & Testing System (Intern)**
-  - **Tech**: Python, PyQt, MQTT, queue-based multithreading, protocol encryption, JSON-driven test framework.
-  - **Metrics**: 40% operation-time reduction, up to 80% less adaptation code, <20ms latency, 40% lower CPU usage.
-  - [Blog](https://fujisaki.top/pages/tech/an-iot-test-tool-development-notes/post.html)
 
 - **R2 Gateway**
   - **Tech**: Flask, Docker, Cloudflare R2, S3-compatible APIs, Flask-Limiter.
@@ -59,13 +64,6 @@
 - **SAR Data Pipeline with YOLOv8**
   - **Tech**: YOLOv8, OpenCV preprocessing, augmentation pipeline, format conversion, classification/detection/OBB training.
   - **Metrics**: 35% effective data expansion, 12% accuracy improvement over baseline.
-
-<!--# What I have uploaded
-- Experiment projects for papers
-- Some class projects
-- Personal projects
-- Some web links and files for personal use
-- Notice: Some repositories are not published (for personal use or for certain confidentiality reasons)-->
 
 
 > Note: Some projects are in private repositories (course/research or confidentiality reasons).
