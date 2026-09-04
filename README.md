@@ -24,9 +24,9 @@
 
 # Selected Projects
 - **AI-Powered Rental Management Agent Platform**
-  - **Tech**: Flask, SQLite, JWT, LangGraph, SQL tool, Python tool, chart tool, PDF tool, contract RAG.
-  - **Features**: natural-language data entry, record update/query, charting, PDF handling, and retrieval-augmented contract search.
-  - [Github](https://github.com/HungryNeko/rent)
+  - **Tech**: Flask, SQLite, JWT, LangGraph, MCP, SQL tool, Python tool, chart tool, PDF tool, vector RAG.
+  - **Features**: decoupled MCP-based agent integration, natural-language data entry, record update/query, charting, PDF/file/image handling, automation, and retrieval-augmented contract/document search.
+  - [Github](https://github.com/HungryNeko/rent) [Agent Part (refining)](https://github.com/HungryNeko/AI_Agent)
 
 - **AMECxSV: Metadata-Driven Calibration for Cross-Lingual Speaker Verification**
   - **Tech**: frozen speech encoders, metadata-aware score calibration, language/duration features, lightweight MLP.
