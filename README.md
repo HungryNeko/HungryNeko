@@ -31,6 +31,7 @@
 - **AMECxSV: Metadata-Driven Calibration for Cross-Lingual Speaker Verification**
   - **Tech**: frozen speech encoders, metadata-aware score calibration, language/duration features, lightweight MLP.
   - **Focus**: cross-lingual speaker verification, multilingual trials, confidence-based abstention.
+  - [arxiv](https://arxiv.org/html/2607.16532v1)
 
 - **GBC: Gaussian-Based Colorization and Super-Resolution for 3D Reconstruction**
   - **Tech**: optical-flow super-resolution, temporal colorization, FFmpeg preprocessing, COLMAP + 3D Gaussian splatting.
@@ -47,9 +48,9 @@
   - **Publication**: RSAE 2025.
   - [Blog](https://fujisaki.top/pages/paper/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/post.html)
 
-- **Multilingual Speech Separation + Code-switch Correction Pipeline (Ongoing)**
+- **Multilingual Speech Separation + Code-switch Correction Pipeline**
   - **Tech**: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.
-  - **Experiments**: short-window cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison.
+  - **Experiments**: short-window cross-lingual speaker verification benchmark across ECAPA, x-vector, WavLM, Resemblyzer, and custom models, with ablation + speed/accuracy comparison
 
 - **AI Cloud Album (AWS)**
   - **Tech**: Flask, JWT, S3, SQS, Lambda, DynamoDB, IAM, Secrets Manager, status-driven async workflow (`uploaded -> processing -> complete/failed`).
