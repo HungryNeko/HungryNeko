@@ -8,7 +8,7 @@
 # About me
 - @HungryNeko
 - **Backend Engineering + AI Engineering** (CV, speech, RL, multimodal)
-- **Current focus**: production AI pipelines (ONNX inference, Dockerized services, async cloud workflows, agent tools)
+- **Current focus**: Applied AI
 - **Interests**: IoT backend, speech processing, AI agents, and research-to-production engineering
 - **More technical notes**: [Blog Posts](https://fujisaki.top/)
 
