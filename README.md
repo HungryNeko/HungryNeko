@@ -60,7 +60,7 @@
 - **R2 Gateway**
   - **Tech**: Flask, Docker, Cloudflare R2, S3-compatible APIs, Flask-Limiter.
   - **Features**: Dockerized R2 gateway with token-based access control, public/private bucket policy, traffic and operation-quota guardrails, and health/usage endpoints.
-  - [Blog](https://fujisaki.top/pages/tech/r2-gateway-cost-controlled-s3-compatible-object-storage-gateway/post.html)
+  - [Blog](https://fujisaki.top/pages/tech/r2-gateway-cost-controlled-s3-compatible-object-storage-gateway/post.html) [GitHub](https://github.com/HungryNeko/r2-gateway)  
 
 - **SAR Data Pipeline with YOLOv8**
   - **Tech**: YOLOv8, OpenCV preprocessing, augmentation pipeline, format conversion, classification/detection/OBB training.
