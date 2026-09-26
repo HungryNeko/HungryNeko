@@ -55,7 +55,7 @@
 - **AI Cloud Album (AWS)**
   - **Tech**: Flask, JWT, S3, SQS, Lambda, DynamoDB, IAM, Secrets Manager, status-driven async workflow (`uploaded -> processing -> complete/failed`).
   - **AI Deployment**: YOLOv8 inference exported to ONNX and packaged with Docker for reproducible cloud inference.
-  - [Blog](https://fujisaki.top/pages/tech/aws-cloud-album-project/post.html)
+  - [Blog](https://fujisaki.top/pages/tech/aws-cloud-album-project/post.html) [GitHub](https://github.com/HungryNeko/AI-Cloud-Album-AWS-)
 
 - **R2 Gateway**
   - **Tech**: Flask, Docker, Cloudflare R2, S3-compatible APIs, Flask-Limiter.
