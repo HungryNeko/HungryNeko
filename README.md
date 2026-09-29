@@ -23,6 +23,11 @@
 | **Engineering** | Git, GitHub Actions, CI/CD, async job pipelines, PyQt, QT, TCP/IP, COLMAP, 3D Gaussian Splatting |
 
 # Selected Projects
+- **Akizip: A Visual 7-Zip Archive Manager for Linux&nbsp;&nbsp;[![GitHub stars](https://img.shields.io/github/stars/AkiZip/AkiZip?style=social)](https://github.com/AkiZip/AkiZip/stargazers)**
+  - **Tech**: Python, GTK 4, libadwaita, PyGObject, 7-Zip, Flatpak.
+  - **Features**: archive creation, extraction, browsing, smart compression recommendations, password protection, background jobs, and multilingual support.
+  - [GitHub](https://github.com/AkiZip/AkiZip) [Web](https://akizip.top)  [AkiZip Blog](https://blog.akizip.top)
+
 - **AI-Powered Rental Management Agent Platform**
   - **Tech**: Flask, SQLite, JWT, LangGraph, MCP, SQL tool, Python tool, chart tool, PDF tool, vector RAG.
   - **Features**: decoupled MCP-based agent integration, natural-language data entry, record update/query, charting, PDF/file/image handling, automation, and retrieval-augmented contract/document search.
