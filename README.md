@@ -51,7 +51,7 @@
 - **Safety-driven Path Selection Using Reinforcement Learning in Autonomous Driving**
   - **Tech**: Q-learning, dynamic confidence update, noisy-source filtering, OpenStreetMap-based routing context.
   - **Publication**: RSAE 2025.
-  - [Blog](https://fujisaki.top/pages/paper/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/post.html)
+  - [Blog](https://fujisaki.top/pages/paper/safety-driven-path-selection-using-reinforcement-learning-in-autonomous-driving/post.html) [Paper](https://ieeexplore.ieee.org/document/11488131)  
 
 - **Multilingual Speech Separation + Code-switch Correction Pipeline**
   - **Tech**: MossFormer2, Whisper, PyTorch, SpeechBrain/WeSpeaker, custom TDNN/SincNet variants.
