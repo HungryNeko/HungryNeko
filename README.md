@@ -6,7 +6,7 @@
 
 **AI / Software Engineer, taking ideas from research papers to shipped software.**
 
-ML / AI engineering · open to full-time roles
+ML / AI engineering
 
 [![Blog](https://img.shields.io/badge/Blog-fujisaki.top-24292e?style=for-the-badge)](https://fujisaki.top/)
 
