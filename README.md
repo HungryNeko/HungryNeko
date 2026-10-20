@@ -46,7 +46,7 @@ My work sits where research meets engineering: models that get exported, contain
 
 | Project | What it is | Built with | Links |
 | --- | --- | --- | --- |
-| **Rental Management Agent Platform**<br>*Ongoing* | A property-management backend you can talk to. A decoupled MCP agent handles natural-language data entry, queries, charts, PDF/image handling and RAG over contracts. | Flask, SQLite, JWT, LangGraph, MCP, vector RAG | [Agent](https://github.com/HungryNeko/AI_Agent) |
+| **Rental Management Agent Platform**<br>*Ongoing* | A property-management backend you can talk to. A decoupled MCP agent handles natural-language data entry, queries, charts, PDF/image handling and RAG over contracts. | Flask, SQLite, JWT, LangGraph, MCP, vector RAG | (The system part is hidden for security reasons) [Agent](https://github.com/HungryNeko/AI_Agent) |
 | **AI Cloud Album**<br>*AWS · course project* | Photo album with asynchronous AI tagging. Uploads move through a status-driven pipeline (`uploaded → processing → complete/failed`); YOLOv8 is exported to ONNX and served from a Docker image. | Flask, S3, SQS, Lambda, DynamoDB, IAM, ONNX, Docker | [Repo](https://github.com/HungryNeko/AI-Cloud-Album-AWS-) · [Write-up](https://fujisaki.top/pages/tech/aws-cloud-album-project/post.html) |
 | **R2 Gateway**<br>*Cloudflare R2* | Cost-controlled front door for object storage: token-based access, public/private bucket policy, traffic and operation quotas, health and usage endpoints. | Flask, Docker, S3-compatible APIs, Flask-Limiter | [Repo](https://github.com/HungryNeko/r2-gateway) · [Write-up](https://fujisaki.top/pages/tech/r2-gateway-cost-controlled-s3-compatible-object-storage-gateway/post.html) |
 
